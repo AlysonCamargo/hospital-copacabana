@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hospital Copacabana</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+  <h1>Hospital Copacabana</h1>
+
+  <form id="formReceita">
+    <label for="nomePaciente">Nome do Paciente:</label>
+    <input type="text" id="nomePaciente" required />
+
+    <label for="nomeMedico">Nome do Médico:</label>
+    <input type="text" id="nomeMedico" required />
+
+    <label for="crmMedico">CRM do Médico:</label>
+    <input type="text" id="crmMedico" required />
+
+    <label for="remedios">Remédios Prescritos:</label>
+    <textarea id="remedios" rows="4" required></textarea>
+
+    <label for="assinaturaMedico">Assinatura do Médico:</label>
+    <input type="text" id="assinaturaMedico" required />
+
+    <label for="dataInicio">Data de Início (Atestado):</label>
+    <input type="date" id="dataInicio" required />
+
+    <label for="dataTermino">Data de Término (Atestado):</label>
+    <input type="date" id="dataTermino" required />
+
+    <div class="buttons">
+      <button type="button" onclick="gerarReceita()">Gerar Receita</button>
+      <button type="button" onclick="gerarAtestado()">Gerar Atestado</button>
+    </div>
+  </form>
+
+  <div class="output">
+    <p id="status" class="status"></p>
+  </div>
+
+  <script src="js/gerarReceita.js"></script>
+  <script src="js/gerarAtestado.js"></script>
+</body>
+</html>
