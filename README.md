@@ -28,22 +28,6 @@ Sistema web para agendamento de consultas e gerenciamento médico no servidor de
 
 ---
 
-## 🚀 Como usar localmente
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/hospital-copacabana.git
-```
-
-2. Acesse a pasta:
-```bash
-cd hospital-copacabana
-```
-
-3. Abra o `index.html` no navegador ou use uma extensão como Live Server.
-
----
-
 ## 📁 Estrutura do Projeto
 
 ```
