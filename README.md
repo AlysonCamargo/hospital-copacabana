@@ -28,16 +28,6 @@ Sistema web para agendamento de consultas e gerenciamento médico no servidor de
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```
-📁 hospital-copacabana
-├── index.html
-├── style.css
-└── script.js
-```
-
----
 
 ## ✨ Contribuições
 
