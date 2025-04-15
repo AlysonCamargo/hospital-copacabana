@@ -2,7 +2,6 @@
 
 Sistema web para agendamento de consultas e gerenciamento médico no servidor de GTA RP. Projetado para médicos, recepcionistas e cidadãos do Hospital Copacabana.
 
-![Banner do Projeto](https://vercel.com/og-image?title=Hospital%20Copacabana%20RP&description=Sistema%20de%20agendamento%20m%C3%A9dico%20para%20GTA%20RP)
 
 ## 🌐 Acesse o sistema
 🔗 [https://hospital-copacabana.vercel.app](https://hospital-copacabana.vercel.app)
